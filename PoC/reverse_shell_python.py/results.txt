@@ -1,0 +1,27 @@
+SOURCE OF THE MALWARE:
+
+
+CLEAR FILE:
+https://www.virustotal.com/gui/file/edd489695b5e7673cad2c4fc59ed2dea4da8d6381ec62b37a1185ec91b2478ce
+https://hybrid-analysis.com/sample/edd489695b5e7673cad2c4fc59ed2dea4da8d6381ec62b37a1185ec91b2478ce
+https://metadefender.com/results/hash/EDD489695B5E7673CAD2C4FC59ED2DEA4DA8D6381EC62B37A1185EC91B2478CE
+https://virusscan.jotti.org/es-ES/filescanjob/uht6z3kb7a
+
+START:
+https://www.virustotal.com/gui/file/df9465dbdffd01abc24b729f59c5f93487220868df6992df69ec3813abe7193f?nocache=1
+https://hybrid-analysis.com/sample/df9465dbdffd01abc24b729f59c5f93487220868df6992df69ec3813abe7193f
+https://metadefender.com/results/file/bzI2MDEzMGxpRlBBLVlDMVZVSkNWUGlzNDNV_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/11tlkpnev8
+
+MIDDLE:
+https://www.virustotal.com/gui/file/6327777c802df413ca1b7e30b8d33dce06191b72012358144b2b00ecac35196c?nocache=1
+https://hybrid-analysis.com/sample/6327777c802df413ca1b7e30b8d33dce06191b72012358144b2b00ecac35196c
+https://metadefender.com/results/file/bzI2MDEzMEhQYldteTBCNDBZanpUSjY0VDky_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/yn53sj1jn6
+
+
+END:
+https://www.virustotal.com/gui/file/edd489695b5e7673cad2c4fc59ed2dea4da8d6381ec62b37a1185ec91b2478ce?nocache=1
+https://hybrid-analysis.com/sample/85bf1c86617b6e98388cff0af2ec3a1c310ff6ba24e7782cef0627da4eecf6ee
+https://metadefender.com/results/file/bzI2MDEzMF9WaW14OEZ6OFVKdDhOeWY0YzU_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/76c1xisbqt

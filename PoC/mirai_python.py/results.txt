@@ -1,0 +1,26 @@
+SOURCE OF THE MALWARE:
+https://bazaar.abuse.ch/sample/4206db272a53c503c51fd6ab2023ee4dc77d10aef81bb320ccda62f15a420ccd/
+
+CLEAR FILE:
+https://www.virustotal.com/gui/file/4206db272a53c503c51fd6ab2023ee4dc77d10aef81bb320ccda62f15a420ccd
+https://hybrid-analysis.com/sample/4206db272a53c503c51fd6ab2023ee4dc77d10aef81bb320ccda62f15a420ccd
+https://metadefender.com/results/hash/4206DB272A53C503C51FD6AB2023EE4DC77D10AEF81BB320CCDA62F15A420CCD
+https://virusscan.jotti.org/es-ES/filescanjob/5tssci8q8z
+
+START:
+https://www.virustotal.com/gui/file/d730f5c2234513281e93a9dd7f40e48b03261a11d63ebcea09614b534c24970f?nocache=1
+https://hybrid-analysis.com/sample/d730f5c2234513281e93a9dd7f40e48b03261a11d63ebcea09614b534c24970f
+https://metadefender.com/results/file/bzI2MDEzMGdFUXJKRDNxeXJfenR5dG85T1M_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/q5m1md6r8c
+
+MIDDLE:
+https://www.virustotal.com/gui/file/f0729cfb29cd92753f75e695386175abe1e213d0f96f9bd75fd937acff14f887?nocache=1
+https://hybrid-analysis.com/sample/f0729cfb29cd92753f75e695386175abe1e213d0f96f9bd75fd937acff14f887
+https://metadefender.com/results/file/bzI2MDEzMHc0UWQ1QUtFbEFSdVpnbGg1ZHlt_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/j0t0huhizo
+
+END:
+https://www.virustotal.com/gui/file/143df4a4ce018f95ff93029add97f2de2ac7d68f97d47ca927ea02765e00b502?nocache=1
+https://hybrid-analysis.com/sample/143df4a4ce018f95ff93029add97f2de2ac7d68f97d47ca927ea02765e00b502
+https://metadefender.com/results/file/bzI2MDEzMHdhVDl0VEROc0l2Q1otREVnMmNH_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/v3hqvr3umw

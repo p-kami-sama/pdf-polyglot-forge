@@ -1,0 +1,26 @@
+SOURCE OF THE MALWARE:
+https://github.com/vxunderground/MalwareSourceCode/blob/main/Ruby/Trojan-Spy.Ruby.Kakkeys.d
+
+CLEAR FILE:
+https://www.virustotal.com/gui/file/400550375dd8e3e24d0b181723287b5231839ce842677addb5c7fecfcc29b119
+https://hybrid-analysis.com/sample/400550375dd8e3e24d0b181723287b5231839ce842677addb5c7fecfcc29b119
+https://metadefender.com/results/file/bzI2MDEzMDN3T1c2VldTSGZGYXZiZ2ItbGE_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/2ygyrecpyd
+
+START:
+https://www.virustotal.com/gui/file/aeb237a6b82961020f873b824761a507b2687733199513dcc61fc91d886b7ef9?nocache=1
+https://hybrid-analysis.com/sample/aeb237a6b82961020f873b824761a507b2687733199513dcc61fc91d886b7ef9
+https://metadefender.com/results/file/bzI2MDEzMFRQSThEREdIRF9LNk1vekliczNy_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/srjgf7od04
+
+MIDDLE:
+https://www.virustotal.com/gui/file/9eeb58af8b0a20b5994954a8a80d1156e25ddc3537d7378dd9a5f1cfb86cd7be?nocache=1
+https://hybrid-analysis.com/sample/9eeb58af8b0a20b5994954a8a80d1156e25ddc3537d7378dd9a5f1cfb86cd7be
+https://metadefender.com/results/file/bzI2MDEzME9pZHVoT0x1ckRXS0NIZnBwRV9C_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/thvefnt0qe
+
+END:
+https://www.virustotal.com/gui/file/d4452905ee723a6e0ff3b460983a5554ccc5b68de4a43bf1411eb8412eabf580?nocache=1
+https://hybrid-analysis.com/sample/d4452905ee723a6e0ff3b460983a5554ccc5b68de4a43bf1411eb8412eabf580
+https://metadefender.com/results/file/bzI2MDEzMDJwVWpfeGhlZS1tTlJQNUdSUTFvUA_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/xwkllgqzs6

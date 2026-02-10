@@ -1,0 +1,26 @@
+SOURCE OF THE MALWARE:
+https://github.com/vxunderground/MalwareSourceCode/blob/main/Ruby/Virus.Ruby.Pydoxon.b
+
+CLEAR FILE:
+https://www.virustotal.com/gui/file/e74dc99849359a0178bebdf67842599e7e9c23ccf29caf06a32ac1b69fc7d50e
+https://hybrid-analysis.com/sample/e74dc99849359a0178bebdf67842599e7e9c23ccf29caf06a32ac1b69fc7d50e
+https://metadefender.com/results/hash/E74DC99849359A0178BEBDF67842599E7E9C23CCF29CAF06A32AC1B69FC7D50E
+https://virusscan.jotti.org/es-ES/filescanjob/nwmtaih355
+
+START:
+https://www.virustotal.com/gui/file/2e57c52108edd2d5dad60b0ddb0e4fe594a3b7d4c362d253ed12a9d9c6f72ca1?nocache=1
+https://hybrid-analysis.com/sample/2e57c52108edd2d5dad60b0ddb0e4fe594a3b7d4c362d253ed12a9d9c6f72ca1
+https://metadefender.com/results/file/bzI2MDEyOTlDMmpXMzZGVDlFbm1RR0ZaSGM_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/sks3kfcgn9
+
+MIDDLE:
+https://www.virustotal.com/gui/file/952e2310ad00ef35f5d799ecab3a58156e73b3b566c44f95902453ea4dd22363?nocache=1
+https://hybrid-analysis.com/sample/952e2310ad00ef35f5d799ecab3a58156e73b3b566c44f95902453ea4dd22363
+https://metadefender.com/results/file/bzI2MDEyOUVBS0hYSTV3MUVGcEk4dll2cFFR_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/dgdwar06lv
+
+END:
+59fba02b81ffc0ac025d4959ca0784ff0b422f3cc90ac199661491ca7f23a8ba
+https://hybrid-analysis.com/sample/59fba02b81ffc0ac025d4959ca0784ff0b422f3cc90ac199661491ca7f23a8ba
+https://metadefender.com/results/file/bzI2MDEyOU9MQ2VRUnE4U3cxNGpmZm94cHM_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/t7jf8bhkt5

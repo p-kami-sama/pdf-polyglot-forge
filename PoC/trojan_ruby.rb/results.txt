@@ -1,0 +1,26 @@
+SOURCE OF THE MALWARE:
+https://github.com/vxunderground/MalwareSourceCode/blob/main/Ruby/Constructor.Ruby.Qtp.a
+
+CLEAR FILE:
+https://www.virustotal.com/gui/file/5f67e33f1162aabeaeb5eb81ddcecb8304711489b6c498b2b75a8cc763fa7157
+https://hybrid-analysis.com/sample/5f67e33f1162aabeaeb5eb81ddcecb8304711489b6c498b2b75a8cc763fa7157
+https://metadefender.com/results/hash/5F67E33F1162AABEAEB5EB81DDCECB8304711489B6C498B2B75A8CC763FA7157
+https://virusscan.jotti.org/es-ES/filescanjob/hgas4zbh62
+
+START:
+https://www.virustotal.com/gui/file/43e13e75d810e6841ec3c2ea6a28fe13ac8904e0c08d63082fc7affc5e8c8d7f?nocache=1
+https://hybrid-analysis.com/sample/43e13e75d810e6841ec3c2ea6a28fe13ac8904e0c08d63082fc7affc5e8c8d7f
+https://metadefender.com/results/file/bzI2MDEyOTlaZ0xWODY2ZjkwMklvLUMzZGt4_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/zxhuw5idf2
+
+MIDDLE
+https://www.virustotal.com/gui/file/4dfdd6291c2e2c04400184057035e4860be97a238c9930dad0c2fbad30f83cfe?nocache=1
+https://hybrid-analysis.com/sample/4dfdd6291c2e2c04400184057035e4860be97a238c9930dad0c2fbad30f83cfe
+https://metadefender.com/results/hash/4DFDD6291C2E2C04400184057035E4860BE97A238C9930DAD0C2FBAD30F83CFE
+https://virusscan.jotti.org/es-ES/filescanjob/zd2jv9s0d2
+
+END:
+https://www.virustotal.com/gui/file/3ece680c2aaceceed213ded4c7797bfce90d01fc27decd8d619f140ea792c34d?nocache=1
+https://hybrid-analysis.com/sample/3ece680c2aaceceed213ded4c7797bfce90d01fc27decd8d619f140ea792c34d
+https://metadefender.com/results/file/bzI2MDEyOWRMSjBVMkNOb1lxMTFkQ2VnTlNG_mdaas
+https://virusscan.jotti.org/es-ES/filescanjob/xr83yay1f5
