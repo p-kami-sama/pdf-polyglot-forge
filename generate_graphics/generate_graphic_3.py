@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
 IEEE_WIDTH = 3.4
-IEEE_HEIGHT = 3.2
+IEEE_HEIGHT = 2.5
 
 plt.rcParams.update({
     'figure.figsize': (IEEE_WIDTH, IEEE_HEIGHT),
@@ -13,7 +13,7 @@ plt.rcParams.update({
     'axes.labelsize': 9,
     'xtick.labelsize': 7.5,
     'ytick.labelsize': 9,
-    'font.family': 'serif',
+    'font.family': 'Times New Roman',
 
     'lines.linewidth': 0.6,
     'axes.linewidth': 0.5,
@@ -29,6 +29,9 @@ binarize_values = False     # Switch to True to binarize detections
 df_raw = pd.read_csv(data_file_name)
 df = df_raw.dropna(how="all").copy()
 df.columns = [c.strip() for c in df.columns]
+
+# Filter to exclude rows where "polyglot type" is "clear"
+df = df[df["polyglot type"] != "clear"]
 
 # 2. Configure the chart
 def ratio_to_percent(value):
@@ -67,13 +70,21 @@ ax = platform_means.plot(kind="bar", color=my_colors, edgecolor="black", linewid
 plt.grid(axis='y', linestyle='--', linewidth=0.3, which='both')
 plt.gca().set_axisbelow(True)
 
-ax.yaxis.set_major_locator(mticker.MultipleLocator(10))
-ax.yaxis.set_minor_locator(mticker.MultipleLocator(5))
-
+ax.yaxis.set_major_locator(mticker.MultipleLocator(5))
+ax.set_ylim(0, 32)
 plt.ylabel("Detection Rate (%)")
 plt.xlabel("Analysis Platform")
 
 plt.xticks(rotation=25, ha="right")
+
+
+for bar in ax.patches:
+    height = bar.get_height()
+    y_pos = height + 0 if height > 0 else 1 
+    
+    ax.text(bar.get_x() + bar.get_width()/2., y_pos,
+            f'{height:.1f}%',
+            ha='center', va='bottom', fontsize=9, fontweight='bold')
 
 
 # 5. Save the graph

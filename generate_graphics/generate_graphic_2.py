@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
 IEEE_WIDTH = 3.4
-IEEE_HEIGHT = 2.8
+IEEE_HEIGHT = 2.5
 
 plt.rcParams.update({
     'figure.figsize': (IEEE_WIDTH, IEEE_HEIGHT),
@@ -13,7 +13,7 @@ plt.rcParams.update({
     'axes.labelsize': 9,
     'xtick.labelsize': 7.5,
     'ytick.labelsize': 9,
-    'font.family': 'serif',
+    'font.family': 'Times New Roman',
     
     'lines.linewidth': 0.6,     
     'axes.linewidth': 0.5,       
@@ -84,8 +84,7 @@ plt.gca().set_axisbelow(True)
 plt.ylabel("Detection Rate (%)")
 plt.xlabel("Polyglot Construction Technique")
 
-plt.gca().yaxis.set_major_locator(mticker.MultipleLocator(20))
-plt.gca().yaxis.set_minor_locator(mticker.MultipleLocator(10))
+plt.gca().yaxis.set_major_locator(mticker.MultipleLocator(10))
 
 # 6. Save the graph
 output_dir = os.path.dirname(output_graph_file_name)

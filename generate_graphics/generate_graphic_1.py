@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
 IEEE_WIDTH = 3.4
-IEEE_HEIGHT = 3.2 
+IEEE_HEIGHT = 2.5
 
 plt.rcParams.update({
     'figure.figsize': (IEEE_WIDTH, IEEE_HEIGHT),
@@ -13,7 +13,7 @@ plt.rcParams.update({
     'axes.labelsize': 9,
     'xtick.labelsize': 7.5,
     'ytick.labelsize': 9,
-    'font.family': 'serif',
+    'font.family': 'Times New Roman',
     
     'lines.linewidth': 0.6,
     'axes.linewidth': 0.5,
@@ -80,8 +80,8 @@ for i, (technique, mean_val) in enumerate(global_means.items()):
 
 
 # 5. Fine-tune the graph
-ax.yaxis.set_major_locator(mticker.MultipleLocator(20))
-ax.yaxis.set_minor_locator(mticker.MultipleLocator(10))
+ax.yaxis.set_major_locator(mticker.MultipleLocator(10))
+
 
 plt.grid(axis='y', linestyle='--', linewidth=0.3, which='both')
 plt.gca().set_axisbelow(True)

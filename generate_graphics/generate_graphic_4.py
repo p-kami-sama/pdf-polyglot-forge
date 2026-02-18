@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
 IEEE_WIDTH = 3.4
-IEEE_HEIGHT = 3.2
+IEEE_HEIGHT = 2.5
 
 plt.rcParams.update({
     'figure.figsize': (IEEE_WIDTH, IEEE_HEIGHT),
@@ -13,7 +13,7 @@ plt.rcParams.update({
     'axes.labelsize': 9,
     'xtick.labelsize': 7.5,
     'ytick.labelsize': 9,
-    'font.family': 'serif',
+    'font.family': 'Times New Roman',
     
     'lines.linewidth': 0.6,
     'axes.linewidth': 0.5,
@@ -63,10 +63,10 @@ malware_order = df_clear.sort_values(by='Avg_Detection', ascending=False).index.
 fig, ax = plt.subplots()
 
 colors = {
-    'clear': '#d62728', 
-    'start': '#ff7f0e', 
+    'clear': '#1f77b4',
+    'start': '#ff7f0e',
     'middle': '#2ca02c',
-    'end': '#1f77b4'    
+    'end': '#d62728',
 }
 markers = {
     'clear': 'o', 
@@ -96,7 +96,7 @@ for p_type in ['clear', 'start', 'middle', 'end']:
                color=colors[p_type], 
                marker=markers[p_type], 
                label=labels_map[p_type],
-               s=35,
+               s=50,
                alpha=0.9, 
                edgecolor='black', 
                linewidth=0.5,
@@ -117,7 +117,7 @@ plt.xlabel("Malware Family")
 plt.xticks(
     ticks=range(len(malware_order)), 
     labels=malware_order, 
-    rotation=45, 
+    rotation=25, 
     ha="right",
     rotation_mode="anchor"
 )
@@ -127,7 +127,7 @@ plt.legend(
     bbox_to_anchor=(1, 1),
     frameon=True,
     fontsize=8,
-    markerscale=1.3,
+    markerscale=1.2,
     edgecolor='black',
     fancybox=False,
     framealpha=1

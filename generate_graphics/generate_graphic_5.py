@@ -13,7 +13,7 @@ plt.rcParams.update({
     'axes.labelsize': 9,
     'xtick.labelsize': 7.5,
     'ytick.labelsize': 9,
-    'font.family': 'serif',
+    'font.family': 'Times New Roman',
 
     'lines.linewidth': 0.6,
     'axes.linewidth': 0.5,
