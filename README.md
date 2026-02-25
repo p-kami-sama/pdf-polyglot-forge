@@ -14,7 +14,7 @@ The repository is organized to support both the generation of polyglots and the 
 * **`make_pdf_polyglot.py`**: The core Python script used to inject payloads into PDF files using different structural positions.
 * **`PoC/`**: Contains the Proof of Concept malware samples (`.sh`, `.rb`, `.py` threats like Mirai, Trojan Ruby, BeaverTail, etc.) and the base benign `sample.pdf` used for the injections.
 * **`automated_task_scripts/`**: A suite of helper scripts (`bash` and `python`) used to automate the batch generation of polyglots, verify their syntax (`check_polyglots_syntax.sh`), and package them safely (`create_zips.sh`).
-* **`generate_graphics/`**: Contains the experimental dataset (`NEW_PDF_tests.csv`) and the Python scripts (`generate_graphic_X.py`) used to plot the detection rate charts featured in the paper. The outputs are saved in the `graphics/` subfolder.
+* **`generate_graphs/`**: Contains the experimental dataset (`NEW_PDF_tests.csv`) and the Python scripts (`generate_graph_X.py`) used to plot the detection rate charts featured in the paper. The outputs are saved in the `graphs/` subfolder.
 
 ---
 
