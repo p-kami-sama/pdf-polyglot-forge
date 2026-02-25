@@ -22,7 +22,7 @@ plt.rcParams.update({
 })
 
 data_file_name = "results.csv"
-output_graph_file_name = "graphics/4_detection_dotplot_malware.pdf"
+output_graph_file_name = "graphs/4_detection_dotplot_malware.pdf"
 
 # 1. Load and clear the data
 df = pd.read_csv(data_file_name)

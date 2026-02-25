@@ -22,7 +22,7 @@ plt.rcParams.update({
 })
 
 data_file_name = "results.csv"
-output_graph_file_name = "graphics/3_detection_by_platform.pdf"
+output_graph_file_name = "graphs/3_detection_by_platform.pdf"
 binarize_values = False     # Switch to True to binarize detections
 
 # 1. Load and clear the data

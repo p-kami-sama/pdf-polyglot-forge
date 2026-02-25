@@ -22,7 +22,7 @@ plt.rcParams.update({
 })
 
 data_file_name = "results.csv"
-output_graph_file_name = "graphics/2_boxplot_detection_by_technique.pdf"
+output_graph_file_name = "graphs/2_boxplot_detection_by_technique.pdf"
 
 # 1. Load and clear the data
 df_raw = pd.read_csv(data_file_name)
