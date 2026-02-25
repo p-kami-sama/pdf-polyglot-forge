@@ -21,7 +21,7 @@ plt.rcParams.update({
     'axes.axisbelow': True 
 })
 
-data_file_name = "NEW_PDF_tests.csv"
+data_file_name = "results.csv"
 output_graph_file_name = "graphics/3_detection_by_platform.pdf"
 binarize_values = False     # Switch to True to binarize detections
 
