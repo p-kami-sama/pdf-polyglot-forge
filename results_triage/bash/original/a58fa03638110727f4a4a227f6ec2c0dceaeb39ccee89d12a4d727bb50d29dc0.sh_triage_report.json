@@ -1,0 +1,95 @@
+{
+    "sample": "260411-prfkysfv9k",
+    "status": "reported",
+    "custom": "frontend:fc2ea502-5563-4616-9277-3dcc5a9c1c1a",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0.sh",
+    "created": "2026-04-11T12:33:31Z",
+    "completed": "2026-04-11T12:39:03Z",
+    "score": 9,
+    "sha256": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0",
+    "tasks": {
+        "260411-prfkysfv9k-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation",
+                "rootkit"
+            ],
+            "score": 9,
+            "target": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260127-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 15
+        },
+        "260411-prfkysfv9k-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260127-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-prfkysfv9k-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation"
+            ],
+            "score": 9,
+            "target": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 14
+        },
+        "260411-prfkysfv9k-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation"
+            ],
+            "score": 9,
+            "target": "a58fa03638110727f4a4a227f6ec2c0dceaeb39ccee89d12a4d727bb50d29dc0.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 14
+        },
+        "260411-prfkysfv9k-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

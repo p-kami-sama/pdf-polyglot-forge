@@ -1,0 +1,83 @@
+{
+    "sample": "260523-whfmxsay2w",
+    "status": "reported",
+    "custom": "frontend:fa7c8f6c-7ce9-434c-b1ca-5c7b4368dc00",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+    "created": "2026-05-23T17:55:05Z",
+    "completed": "2026-05-23T17:57:52Z",
+    "score": 7,
+    "sha256": "281154e87eb07466af33dc4fe27ffe587c00b1b1a739bbd6dae6b2b5d86ac01f",
+    "tasks": {
+        "260523-whfmxsay2w-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260523-whfmxsay2w-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260523-whfmxsay2w-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260523-whfmxsay2w-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260523-whfmxsay2w-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

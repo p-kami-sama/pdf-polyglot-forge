@@ -1,0 +1,62 @@
+{
+    "sample": "260411-qlgrhag17k",
+    "status": "reported",
+    "custom": "frontend:d58695e8-038d-4694-9659-3fcb5b094410",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_stack.js",
+    "created": "2026-04-11T13:20:46Z",
+    "completed": "2026-04-11T13:24:10Z",
+    "score": 10,
+    "sha256": "31570996e615e1f546ddcc1a6c61a5742fd0283a1e05c04bf292ce267b892481",
+    "tasks": {
+        "260411-qlgrhag17k-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:dec - remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_stack.js",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qlgrhag17k-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:dec - remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_stack.js",
+            "backend": "sbx4m61",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qlgrhag17k-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

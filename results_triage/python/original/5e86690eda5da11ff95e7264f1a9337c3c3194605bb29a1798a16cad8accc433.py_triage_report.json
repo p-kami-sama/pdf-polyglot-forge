@@ -1,0 +1,44 @@
+{
+    "sample": "260411-m46lsscy7p",
+    "status": "reported",
+    "custom": "frontend:29714fd2-84d1-4c1c-b379-b60b8717912a",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "5e86690eda5da11ff95e7264f1a9337c3c3194605bb29a1798a16cad8accc433.py",
+    "created": "2026-04-11T11:02:09Z",
+    "completed": "2026-04-11T11:04:49Z",
+    "score": 3,
+    "sha256": "5e86690eda5da11ff95e7264f1a9337c3c3194605bb29a1798a16cad8accc433",
+    "tasks": {
+        "260411-m46lsscy7p-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "5e86690eda5da11ff95e7264f1a9337c3c3194605bb29a1798a16cad8accc433.py",
+            "backend": "sbx4m60",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-m46lsscy7p-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "5e86690eda5da11ff95e7264f1a9337c3c3194605bb29a1798a16cad8accc433.py",
+            "backend": "sbx4m72",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-m46lsscy7p-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

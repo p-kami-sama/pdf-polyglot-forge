@@ -1,0 +1,79 @@
+{
+    "sample": "260411-m5jhnafy2y",
+    "status": "reported",
+    "custom": "frontend:ef4878cc-b6d7-40f8-b679-58a473b113fc",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a.py",
+    "created": "2026-04-11T11:02:48Z",
+    "completed": "2026-04-11T11:05:24Z",
+    "score": 3,
+    "sha256": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a",
+    "tasks": {
+        "260411-m5jhnafy2y-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery",
+                "execution"
+            ],
+            "score": 3,
+            "target": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a.py",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260127-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-m5jhnafy2y-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution"
+            ],
+            "score": 3,
+            "target": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a.py",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-m5jhnafy2y-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution"
+            ],
+            "score": 3,
+            "target": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a.py",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-m5jhnafy2y-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution"
+            ],
+            "score": 3,
+            "target": "54286aec8508e043e76848659e560627478bf2114646a2c201f9b5f614def54a.py",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-m5jhnafy2y-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

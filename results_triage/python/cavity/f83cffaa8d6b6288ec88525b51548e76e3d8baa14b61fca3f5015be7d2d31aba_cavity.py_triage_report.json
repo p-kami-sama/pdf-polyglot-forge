@@ -1,0 +1,58 @@
+{
+    "sample": "260411-m9tjescz9r",
+    "status": "reported",
+    "custom": "frontend:82fa309b-e830-490b-b2a3-a47f8cf11b99",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "f83cffaa8d6b6288ec88525b51548e76e3d8baa14b61fca3f5015be7d2d31aba_cavity.py",
+    "created": "2026-04-11T11:10:17Z",
+    "completed": "2026-04-11T11:12:53Z",
+    "score": 5,
+    "sha256": "b921c7af5eb024ce12c13109dd99f821aed55481c778330d8b305bbc719be17c",
+    "tasks": {
+        "260411-m9tjescz9r-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "f83cffaa8d6b6288ec88525b51548e76e3d8baa14b61fca3f5015be7d2d31aba_cavity.pdf",
+            "backend": "sbx4m61",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260411-m9tjescz9r-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "f83cffaa8d6b6288ec88525b51548e76e3d8baa14b61fca3f5015be7d2d31aba_cavity.pdf",
+            "backend": "sbx4m75",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260411-m9tjescz9r-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf"
+            ],
+            "score": 5,
+            "sigs": 1
+        }
+    }
+}

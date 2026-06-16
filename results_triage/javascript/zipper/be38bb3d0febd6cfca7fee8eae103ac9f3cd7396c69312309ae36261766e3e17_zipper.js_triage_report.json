@@ -1,0 +1,67 @@
+{
+    "sample": "260411-qre5vsb18x",
+    "status": "reported",
+    "custom": "frontend:083d4fa2-25d2-41e7-a9d7-231b7e9ccfae",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17_zipper.js",
+    "created": "2026-04-11T13:29:25Z",
+    "completed": "2026-04-11T13:32:17Z",
+    "score": 10,
+    "sha256": "ca89f06d1c3b6c7651e92067a1ed63a1ed1aa07205ce4983b5ea19b154e72ac5",
+    "tasks": {
+        "260411-qre5vsb18x-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17_zipper.js",
+            "backend": "sbx4m65",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qre5vsb18x-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17_zipper.js",
+            "backend": "sbx4m72",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qre5vsb18x-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf",
+                "evasion"
+            ],
+            "score": 6,
+            "sigs": 1
+        }
+    }
+}

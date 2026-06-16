@@ -1,0 +1,60 @@
+{
+    "sample": "260411-qcf4lsgx2m",
+    "status": "reported",
+    "custom": "frontend:c80649a2-ec40-42d8-acf1-765baa1bc37a",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e.js",
+    "created": "2026-04-11T13:06:45Z",
+    "completed": "2026-04-11T13:09:52Z",
+    "score": 10,
+    "sha256": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e",
+    "tasks": {
+        "260411-qcf4lsgx2m-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:xworm",
+                "rat",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e.js",
+            "backend": "sbx4m61",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 15
+        },
+        "260411-qcf4lsgx2m-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:xworm",
+                "rat",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e.js",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 14
+        },
+        "260411-qcf4lsgx2m-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

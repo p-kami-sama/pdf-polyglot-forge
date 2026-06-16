@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qj37qag12k",
+    "status": "reported",
+    "custom": "frontend:3a40870d-d1ff-42c1-940c-fee1aff94b67",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_stack.js",
+    "created": "2026-04-11T13:18:20Z",
+    "completed": "2026-04-11T13:21:07Z",
+    "score": 10,
+    "sha256": "e0b63b93e89bc71f3092c0e72a2e99d071bedb9c93fcec0a6dfcf97f3b9bf3f6",
+    "tasks": {
+        "260411-qj37qag12k-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_stack.js",
+            "backend": "sbx4m62",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qj37qag12k-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_stack.js",
+            "backend": "sbx4m75",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qj37qag12k-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

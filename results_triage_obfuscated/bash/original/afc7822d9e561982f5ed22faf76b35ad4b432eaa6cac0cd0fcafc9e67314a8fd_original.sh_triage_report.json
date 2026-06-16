@@ -1,0 +1,101 @@
+{
+    "sample": "260526-nwxjlaa13w",
+    "status": "reported",
+    "custom": "frontend:05f66c80-5195-44ab-8115-2002aadca0ee",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "afc7822d9e561982f5ed22faf76b35ad4b432eaa6cac0cd0fcafc9e67314a8fd_original.sh",
+    "created": "2026-05-26T11:45:24Z",
+    "completed": "2026-05-26T11:48:00Z",
+    "score": 10,
+    "sha256": "92f4d728cb46552f4e23efa65905d120115149650e2183c08db92df153eea79a",
+    "tasks": {
+        "260526-nwxjlaa13w-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "family:kinsing",
+                "family:kinsing_rootkit",
+                "loader",
+                "persistence",
+                "privilege_escalation",
+                "rootkit"
+            ],
+            "score": 10,
+            "target": "afc7822d9e561982f5ed22faf76b35ad4b432eaa6cac0cd0fcafc9e67314a8fd_original.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 23
+        },
+        "260526-nwxjlaa13w-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "afc7822d9e561982f5ed22faf76b35ad4b432eaa6cac0cd0fcafc9e67314a8fd_original.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nwxjlaa13w-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "afc7822d9e561982f5ed22faf76b35ad4b432eaa6cac0cd0fcafc9e67314a8fd_original.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nwxjlaa13w-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "family:kinsing",
+                "family:kinsing_rootkit",
+                "loader",
+                "persistence",
+                "privilege_escalation",
+                "rootkit"
+            ],
+            "score": 10,
+            "target": "afc7822d9e561982f5ed22faf76b35ad4b432eaa6cac0cd0fcafc9e67314a8fd_original.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 20
+        },
+        "260526-nwxjlaa13w-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

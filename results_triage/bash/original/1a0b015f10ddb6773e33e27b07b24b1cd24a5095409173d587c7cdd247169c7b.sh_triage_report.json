@@ -1,0 +1,78 @@
+{
+    "sample": "260411-pnc1naft4r",
+    "status": "reported",
+    "custom": "frontend:dcbee4b5-36c7-41d7-8f3b-3d18676581bc",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b.sh",
+    "created": "2026-04-11T12:28:08Z",
+    "completed": "2026-04-11T12:31:25Z",
+    "score": 7,
+    "sha256": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b",
+    "tasks": {
+        "260411-pnc1naft4r-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260127-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-pnc1naft4r-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-pnc1naft4r-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-pnc1naft4r-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "1a0b015f10ddb6773e33e27b07b24b1cd24a5095409173d587c7cdd247169c7b.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-pnc1naft4r-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "sample": "260411-qge24sbx8s",
+    "status": "reported",
+    "custom": "frontend:8f9826c1-395d-4cb1-8fbb-71028ce525a0",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_cavity.js",
+    "created": "2026-04-11T13:13:41Z",
+    "completed": "2026-04-11T13:16:23Z",
+    "score": 10,
+    "sha256": "1ac0a65dc2a40136f522d303037c4f7343a938ec390bc8849f0ba3b1b57ae3e8",
+    "tasks": {
+        "260411-qge24sbx8s-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:strrat",
+                "persistence",
+                "ransomware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_cavity.js",
+            "backend": "sbx4m63",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-qge24sbx8s-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:strrat",
+                "persistence",
+                "ransomware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_cavity.js",
+            "backend": "sbx4m60",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-qge24sbx8s-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

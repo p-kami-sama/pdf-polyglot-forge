@@ -1,0 +1,66 @@
+{
+    "sample": "260411-qg73wsgz4n",
+    "status": "reported",
+    "custom": "frontend:33db21a7-dfd0-444c-b1aa-dfd08ba7b7bf",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_cavity.js",
+    "created": "2026-04-11T13:15:03Z",
+    "completed": "2026-04-11T13:18:44Z",
+    "score": 10,
+    "sha256": "6d3e0d179e43b2a7af97ec31bb3ed3f1a112e945e4c006b454fd5fa4748b3c9f",
+    "tasks": {
+        "260411-qg73wsgz4n-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:dec - remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_cavity.js",
+            "backend": "sbx4m65",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qg73wsgz4n-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:dec - remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "d7f6af5b758298f74943cc408fd2bb31d825bc94d54f7f376a73493ad330ff8d_cavity.js",
+            "backend": "sbx4m60",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qg73wsgz4n-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf"
+            ],
+            "score": 5,
+            "sigs": 1
+        }
+    }
+}

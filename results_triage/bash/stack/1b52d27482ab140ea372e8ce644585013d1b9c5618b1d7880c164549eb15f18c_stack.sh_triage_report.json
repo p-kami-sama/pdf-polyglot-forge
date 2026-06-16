@@ -1,0 +1,83 @@
+{
+    "sample": "260411-pz9trsfz6m",
+    "status": "reported",
+    "custom": "frontend:08c4fa8f-6821-49dd-8a67-bcbdc41792ff",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "1b52d27482ab140ea372e8ce644585013d1b9c5618b1d7880c164549eb15f18c_stack.sh",
+    "created": "2026-04-11T12:47:11Z",
+    "completed": "2026-04-11T12:52:43Z",
+    "score": 6,
+    "sha256": "542c2ed2525edf31d721245087f70775ba96b71c98145679832ef3dcf5ffbb65",
+    "tasks": {
+        "260411-pz9trsfz6m-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "discovery"
+            ],
+            "score": 6,
+            "target": "1b52d27482ab140ea372e8ce644585013d1b9c5618b1d7880c164549eb15f18c_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pz9trsfz6m-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "credential_access",
+                "discovery"
+            ],
+            "score": 6,
+            "target": "1b52d27482ab140ea372e8ce644585013d1b9c5618b1d7880c164549eb15f18c_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260411-pz9trsfz6m-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "discovery"
+            ],
+            "score": 6,
+            "target": "1b52d27482ab140ea372e8ce644585013d1b9c5618b1d7880c164549eb15f18c_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260127-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pz9trsfz6m-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "discovery"
+            ],
+            "score": 6,
+            "target": "1b52d27482ab140ea372e8ce644585013d1b9c5618b1d7880c164549eb15f18c_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pz9trsfz6m-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

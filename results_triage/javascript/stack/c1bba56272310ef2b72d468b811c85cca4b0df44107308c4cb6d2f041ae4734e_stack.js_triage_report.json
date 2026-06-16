@@ -1,0 +1,60 @@
+{
+    "sample": "260411-ql62dsbz5v",
+    "status": "reported",
+    "custom": "frontend:dc2ae4d1-6ae6-44be-998c-002981f7763d",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e_stack.js",
+    "created": "2026-04-11T13:21:59Z",
+    "completed": "2026-04-11T13:24:48Z",
+    "score": 10,
+    "sha256": "1e2b4afcf60882d7c8818552b5f885d2f1f21a871aa212afbe5b27129bc7076c",
+    "tasks": {
+        "260411-ql62dsbz5v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:xworm",
+                "rat",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e_stack.js",
+            "backend": "sbx4m62",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 15
+        },
+        "260411-ql62dsbz5v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:xworm",
+                "rat",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "c1bba56272310ef2b72d468b811c85cca4b0df44107308c4cb6d2f041ae4734e_stack.js",
+            "backend": "sbx4m72",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 14
+        },
+        "260411-ql62dsbz5v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

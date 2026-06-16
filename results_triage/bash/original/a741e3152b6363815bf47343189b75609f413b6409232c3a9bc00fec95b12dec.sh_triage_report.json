@@ -1,0 +1,93 @@
+{
+    "sample": "260411-prxjgafw4j",
+    "status": "reported",
+    "custom": "frontend:3a6fafc5-04eb-45d3-813b-6776623158b5",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec.sh",
+    "created": "2026-04-11T12:34:20Z",
+    "completed": "2026-04-11T12:40:21Z",
+    "score": 10,
+    "sha256": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec",
+    "tasks": {
+        "260411-prxjgafw4j-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "defense_evasion",
+                "discovery",
+                "family:xmrig",
+                "family:xmrig_linux",
+                "miner"
+            ],
+            "score": 10,
+            "target": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 14
+        },
+        "260411-prxjgafw4j-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "family:xmrig",
+                "family:xmrig_linux",
+                "miner"
+            ],
+            "score": 10,
+            "target": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-prxjgafw4j-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "family:xmrig",
+                "miner"
+            ],
+            "score": 10,
+            "target": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 9
+        },
+        "260411-prxjgafw4j-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "family:xmrig",
+                "miner"
+            ],
+            "score": 10,
+            "target": "a741e3152b6363815bf47343189b75609f413b6409232c3a9bc00fec95b12dec.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 9
+        },
+        "260411-prxjgafw4j-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

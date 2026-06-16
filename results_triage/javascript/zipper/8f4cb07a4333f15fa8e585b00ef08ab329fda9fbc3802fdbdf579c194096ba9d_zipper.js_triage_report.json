@@ -1,0 +1,60 @@
+{
+    "sample": "260411-qvvpqact31",
+    "status": "reported",
+    "custom": "frontend:4fe2e356-aeca-456a-bea9-526097a5ad67",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_zipper.js",
+    "created": "2026-04-11T13:35:24Z",
+    "completed": "2026-04-11T13:38:05Z",
+    "score": 10,
+    "sha256": "b460024a5b8e98c2ba0c7440487fc534d55b9f15fea96469ea9313bc8ff633a9",
+    "tasks": {
+        "260411-qvvpqact31-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_zipper.js",
+            "backend": "sbx4m65",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qvvpqact31-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_zipper.js",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qvvpqact31-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

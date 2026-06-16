@@ -1,0 +1,100 @@
+{
+    "sample": "260526-nvrlysa12t",
+    "status": "reported",
+    "custom": "frontend:47742640-da8b-4d08-a909-a0483604d863",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "b81dbc2439873d2a76e44b22c55251243ed2fa6077a7dbfd00a30a7d635ad9a4_original.sh",
+    "created": "2026-05-26T11:43:23Z",
+    "completed": "2026-05-26T11:46:22Z",
+    "score": 9,
+    "sha256": "7aef8b19af916f1728dcf69abef51e7d0f110261ede96e22af1fc6e66c327b53",
+    "tasks": {
+        "260526-nvrlysa12t-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation",
+                "rootkit"
+            ],
+            "score": 9,
+            "target": "b81dbc2439873d2a76e44b22c55251243ed2fa6077a7dbfd00a30a7d635ad9a4_original.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 16
+        },
+        "260526-nvrlysa12t-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation"
+            ],
+            "score": 9,
+            "target": "b81dbc2439873d2a76e44b22c55251243ed2fa6077a7dbfd00a30a7d635ad9a4_original.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 16
+        },
+        "260526-nvrlysa12t-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation"
+            ],
+            "score": 9,
+            "target": "b81dbc2439873d2a76e44b22c55251243ed2fa6077a7dbfd00a30a7d635ad9a4_original.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 15
+        },
+        "260526-nvrlysa12t-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "exection",
+                "execution",
+                "persistence",
+                "privilege_escalation"
+            ],
+            "score": 9,
+            "target": "b81dbc2439873d2a76e44b22c55251243ed2fa6077a7dbfd00a30a7d635ad9a4_original.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 15
+        },
+        "260526-nvrlysa12t-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

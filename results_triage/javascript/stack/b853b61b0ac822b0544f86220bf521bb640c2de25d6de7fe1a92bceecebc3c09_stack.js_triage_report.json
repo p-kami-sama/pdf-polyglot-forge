@@ -1,0 +1,60 @@
+{
+    "sample": "260411-ql4ahag18p",
+    "status": "reported",
+    "custom": "frontend:dc836764-610b-4f45-9c0d-6a6bb5b03e19",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_stack.js",
+    "created": "2026-04-11T13:21:50Z",
+    "completed": "2026-04-11T13:24:29Z",
+    "score": 10,
+    "sha256": "768e0193ff41ca589147e789e7a5909b73f68350f2d19b7a82cfee3ea65643ca",
+    "tasks": {
+        "260411-ql4ahag18p-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_stack.js",
+            "backend": "sbx4m61",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-ql4ahag18p-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_stack.js",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-ql4ahag18p-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

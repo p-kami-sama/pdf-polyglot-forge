@@ -1,0 +1,95 @@
+{
+    "sample": "260411-p14ddaaz2v",
+    "status": "reported",
+    "custom": "frontend:6c0d79ac-ab96-4c39-b4e9-2d4f56aa9358",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "9ca881abd3c11368e381b8a9f6d32ef14e022058ce936922afb82164c17f3310_stack.sh",
+    "created": "2026-04-11T12:48:38Z",
+    "completed": "2026-04-11T12:53:02Z",
+    "score": 10,
+    "sha256": "34c34c942410acf353ae9d310668ca19b270e7c12b60c293015efa9e5bd093cf",
+    "tasks": {
+        "260411-p14ddaaz2v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "discovery",
+                "family:mirai",
+                "upx"
+            ],
+            "score": 10,
+            "target": "9ca881abd3c11368e381b8a9f6d32ef14e022058ce936922afb82164c17f3310_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-p14ddaaz2v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "botnet",
+                "defense_evasion",
+                "discovery",
+                "family:mirai",
+                "upx"
+            ],
+            "score": 10,
+            "target": "9ca881abd3c11368e381b8a9f6d32ef14e022058ce936922afb82164c17f3310_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-p14ddaaz2v-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "discovery",
+                "family:mirai",
+                "upx"
+            ],
+            "score": 10,
+            "target": "9ca881abd3c11368e381b8a9f6d32ef14e022058ce936922afb82164c17f3310_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-p14ddaaz2v-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "discovery",
+                "family:mirai",
+                "upx"
+            ],
+            "score": 10,
+            "target": "9ca881abd3c11368e381b8a9f6d32ef14e022058ce936922afb82164c17f3310_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-p14ddaaz2v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

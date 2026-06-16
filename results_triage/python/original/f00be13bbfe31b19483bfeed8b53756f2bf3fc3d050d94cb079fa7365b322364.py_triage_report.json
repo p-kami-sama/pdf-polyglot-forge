@@ -1,0 +1,49 @@
+{
+    "sample": "260411-m59pvafy41",
+    "status": "reported",
+    "custom": "frontend:c9b278b8-ee4f-44da-8a33-695d221bc5fa",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "f00be13bbfe31b19483bfeed8b53756f2bf3fc3d050d94cb079fa7365b322364.py",
+    "created": "2026-04-11T11:04:04Z",
+    "completed": "2026-04-11T11:06:38Z",
+    "score": 10,
+    "sha256": "f00be13bbfe31b19483bfeed8b53756f2bf3fc3d050d94cb079fa7365b322364",
+    "tasks": {
+        "260411-m59pvafy41-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "f00be13bbfe31b19483bfeed8b53756f2bf3fc3d050d94cb079fa7365b322364.py",
+            "backend": "sbx4m61",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-m59pvafy41-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "f00be13bbfe31b19483bfeed8b53756f2bf3fc3d050d94cb079fa7365b322364.py",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-m59pvafy41-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "stealer",
+                "family:braodo"
+            ],
+            "score": 10,
+            "sigs": 2
+        }
+    }
+}

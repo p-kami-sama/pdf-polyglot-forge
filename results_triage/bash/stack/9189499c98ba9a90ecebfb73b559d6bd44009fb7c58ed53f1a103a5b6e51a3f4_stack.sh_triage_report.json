@@ -1,0 +1,58 @@
+{
+    "sample": "260411-pytq6afz3m",
+    "status": "reported",
+    "custom": "frontend:5d7011e4-e1b1-4f82-93cd-5b2ba58664d4",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "9189499c98ba9a90ecebfb73b559d6bd44009fb7c58ed53f1a103a5b6e51a3f4_stack.sh",
+    "created": "2026-04-11T12:44:40Z",
+    "completed": "2026-04-11T12:48:30Z",
+    "score": 5,
+    "sha256": "6caa2e6b4908f8e3c799570331c6f3e566d02e2053a4968fe237b75576a99db3",
+    "tasks": {
+        "260411-pytq6afz3m-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "9189499c98ba9a90ecebfb73b559d6bd44009fb7c58ed53f1a103a5b6e51a3f4_stack.pdf",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pytq6afz3m-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "9189499c98ba9a90ecebfb73b559d6bd44009fb7c58ed53f1a103a5b6e51a3f4_stack.pdf",
+            "backend": "sbx4m75",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260411-pytq6afz3m-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf"
+            ],
+            "score": 5,
+            "sigs": 1
+        }
+    }
+}

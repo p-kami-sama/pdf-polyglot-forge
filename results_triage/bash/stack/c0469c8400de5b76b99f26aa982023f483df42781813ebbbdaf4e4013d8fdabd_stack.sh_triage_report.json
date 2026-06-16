@@ -1,0 +1,62 @@
+{
+    "sample": "260411-p2mr1sf14l",
+    "status": "reported",
+    "custom": "frontend:0d4b1b4b-7a92-4901-92b0-a9497f0b9276",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "c0469c8400de5b76b99f26aa982023f483df42781813ebbbdaf4e4013d8fdabd_stack.sh",
+    "created": "2026-04-11T12:49:35Z",
+    "completed": "2026-04-11T12:55:14Z",
+    "score": 1,
+    "sha256": "c2515a859ef419931bbb5dca8183db72676eea3dedfcf4a0336ea034bd59361e",
+    "tasks": {
+        "260411-p2mr1sf14l-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "c0469c8400de5b76b99f26aa982023f483df42781813ebbbdaf4e4013d8fdabd_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150
+        },
+        "260411-p2mr1sf14l-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "c0469c8400de5b76b99f26aa982023f483df42781813ebbbdaf4e4013d8fdabd_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260127-en",
+            "os": "debian-9-armhf",
+            "timeout": 150
+        },
+        "260411-p2mr1sf14l-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "c0469c8400de5b76b99f26aa982023f483df42781813ebbbdaf4e4013d8fdabd_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150
+        },
+        "260411-p2mr1sf14l-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "c0469c8400de5b76b99f26aa982023f483df42781813ebbbdaf4e4013d8fdabd_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150
+        },
+        "260411-p2mr1sf14l-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

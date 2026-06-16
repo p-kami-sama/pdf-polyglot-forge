@@ -1,0 +1,79 @@
+{
+    "sample": "260411-ppyzhsat2v",
+    "status": "reported",
+    "custom": "frontend:0681625c-6cad-4830-9477-ad5934ce17b0",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4.sh",
+    "created": "2026-04-11T12:30:55Z",
+    "completed": "2026-04-11T12:35:06Z",
+    "score": 6,
+    "sha256": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4",
+    "tasks": {
+        "260411-ppyzhsat2v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260127-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-ppyzhsat2v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "discovery"
+            ],
+            "score": 6,
+            "target": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-ppyzhsat2v-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260127-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-ppyzhsat2v-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "e0d7c7df9562bef40c41835803a4af04a04f4f48f201e56c6f60dc58ae8c65e4.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260411-ppyzhsat2v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

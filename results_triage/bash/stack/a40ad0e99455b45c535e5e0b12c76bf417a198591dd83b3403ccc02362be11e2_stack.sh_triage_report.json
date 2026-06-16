@@ -1,0 +1,86 @@
+{
+    "sample": "260411-pxm7zsax5v",
+    "status": "reported",
+    "custom": "frontend:50222490-9d64-4046-ada9-4bd4397ef813",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "a40ad0e99455b45c535e5e0b12c76bf417a198591dd83b3403ccc02362be11e2_stack.sh",
+    "created": "2026-04-11T12:42:37Z",
+    "completed": "2026-04-11T12:48:35Z",
+    "score": 10,
+    "sha256": "f851074ffa4deae594a670fe8ad1c0a208928a15c347c7d2951cb805e7b4fed3",
+    "tasks": {
+        "260411-pxm7zsax5v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "family:gafgyt"
+            ],
+            "score": 10,
+            "target": "a40ad0e99455b45c535e5e0b12c76bf417a198591dd83b3403ccc02362be11e2_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pxm7zsax5v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "family:gafgyt"
+            ],
+            "score": 10,
+            "target": "a40ad0e99455b45c535e5e0b12c76bf417a198591dd83b3403ccc02362be11e2_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260411-pxm7zsax5v-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "family:gafgyt"
+            ],
+            "score": 10,
+            "target": "a40ad0e99455b45c535e5e0b12c76bf417a198591dd83b3403ccc02362be11e2_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pxm7zsax5v-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet",
+                "defense_evasion",
+                "family:gafgyt"
+            ],
+            "score": 10,
+            "target": "a40ad0e99455b45c535e5e0b12c76bf417a198591dd83b3403ccc02362be11e2_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260411-pxm7zsax5v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

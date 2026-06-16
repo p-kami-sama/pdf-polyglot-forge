@@ -1,0 +1,78 @@
+{
+    "sample": "260411-p273ysa12w",
+    "status": "reported",
+    "custom": "frontend:7301c3cb-597a-4913-a999-ea83956f89ec",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "5d81829595150eb5f702e5dcc8c0005e95e216e08947fed48b67c35c9ef73708_stack.sh",
+    "created": "2026-04-11T12:50:35Z",
+    "completed": "2026-04-11T12:58:21Z",
+    "score": 6,
+    "sha256": "37489dcc16f636fd5a337b7bb17052fd38ba86c0533ff10ec573b195e75c3a8c",
+    "tasks": {
+        "260411-p273ysa12w-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "5d81829595150eb5f702e5dcc8c0005e95e216e08947fed48b67c35c9ef73708_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "ubuntu1804-amd64-20260127-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-p273ysa12w-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "5d81829595150eb5f702e5dcc8c0005e95e216e08947fed48b67c35c9ef73708_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260127-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260411-p273ysa12w-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "5d81829595150eb5f702e5dcc8c0005e95e216e08947fed48b67c35c9ef73708_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260127-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260411-p273ysa12w-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "5d81829595150eb5f702e5dcc8c0005e95e216e08947fed48b67c35c9ef73708_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260411-p273ysa12w-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

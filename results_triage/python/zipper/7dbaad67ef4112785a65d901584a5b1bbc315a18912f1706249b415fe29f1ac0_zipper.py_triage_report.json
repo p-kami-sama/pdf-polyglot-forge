@@ -1,0 +1,59 @@
+{
+    "sample": "260411-nk5qtsgv2z",
+    "status": "reported",
+    "custom": "frontend:f66a70c3-35ef-4739-8486-312ad42ac5aa",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "7dbaad67ef4112785a65d901584a5b1bbc315a18912f1706249b415fe29f1ac0_zipper.py",
+    "created": "2026-04-11T11:28:19Z",
+    "completed": "2026-04-11T11:30:53Z",
+    "score": 6,
+    "sha256": "09e8250a9aa8b6edda4fba9a78556b6eafb536d4436721b207d75628f265e036",
+    "tasks": {
+        "260411-nk5qtsgv2z-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "7dbaad67ef4112785a65d901584a5b1bbc315a18912f1706249b415fe29f1ac0_zipper.pdf",
+            "backend": "sbx4m63",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260411-nk5qtsgv2z-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "adware",
+                "discovery",
+                "spyware"
+            ],
+            "score": 3,
+            "target": "7dbaad67ef4112785a65d901584a5b1bbc315a18912f1706249b415fe29f1ac0_zipper.pdf",
+            "backend": "sbx4m61",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 7
+        },
+        "260411-nk5qtsgv2z-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf",
+                "evasion"
+            ],
+            "score": 6,
+            "sigs": 1
+        }
+    }
+}

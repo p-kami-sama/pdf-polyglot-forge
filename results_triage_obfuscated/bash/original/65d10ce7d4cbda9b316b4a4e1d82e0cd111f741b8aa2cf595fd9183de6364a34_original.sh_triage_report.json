@@ -1,0 +1,78 @@
+{
+    "sample": "260526-nxfbpsgx2m",
+    "status": "reported",
+    "custom": "frontend:07cfc980-ed1e-4174-b57d-974449ef0508",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "65d10ce7d4cbda9b316b4a4e1d82e0cd111f741b8aa2cf595fd9183de6364a34_original.sh",
+    "created": "2026-05-26T11:46:19Z",
+    "completed": "2026-05-26T11:48:54Z",
+    "score": 7,
+    "sha256": "af379346956e99aec52ac58fed7106ca8b5af89c32032f7b70dd80f54427f608",
+    "tasks": {
+        "260526-nxfbpsgx2m-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "65d10ce7d4cbda9b316b4a4e1d82e0cd111f741b8aa2cf595fd9183de6364a34_original.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260526-nxfbpsgx2m-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "65d10ce7d4cbda9b316b4a4e1d82e0cd111f741b8aa2cf595fd9183de6364a34_original.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260526-nxfbpsgx2m-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "65d10ce7d4cbda9b316b4a4e1d82e0cd111f741b8aa2cf595fd9183de6364a34_original.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260526-nxfbpsgx2m-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion"
+            ],
+            "score": 7,
+            "target": "65d10ce7d4cbda9b316b4a4e1d82e0cd111f741b8aa2cf595fd9183de6364a34_original.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 3
+        },
+        "260526-nxfbpsgx2m-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

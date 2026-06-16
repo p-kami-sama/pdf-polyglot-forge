@@ -1,0 +1,93 @@
+{
+    "sample": "260411-ppkf5aas8x",
+    "status": "reported",
+    "custom": "frontend:d5efdd10-06c9-4bb8-bc93-98a341633743",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df.sh",
+    "created": "2026-04-11T12:30:14Z",
+    "completed": "2026-04-11T12:34:08Z",
+    "score": 8,
+    "sha256": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df",
+    "tasks": {
+        "260411-ppkf5aas8x-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "hacktool",
+                "persistence",
+                "privilege_escalation",
+                "proxy",
+                "tunnel"
+            ],
+            "score": 8,
+            "target": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 9
+        },
+        "260411-ppkf5aas8x-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "hacktool",
+                "persistence",
+                "privilege_escalation",
+                "proxy",
+                "tunnel"
+            ],
+            "score": 8,
+            "target": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260127-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-ppkf5aas8x-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-ppkf5aas8x-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery"
+            ],
+            "score": 6,
+            "target": "80729e37f797da2b5a177867306318626e52b675f44fa441c256d139e88f69df.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 4
+        },
+        "260411-ppkf5aas8x-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

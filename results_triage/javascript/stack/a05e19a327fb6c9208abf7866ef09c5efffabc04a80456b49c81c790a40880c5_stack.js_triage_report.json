@@ -1,0 +1,60 @@
+{
+    "sample": "260411-qn3fzsbz9z",
+    "status": "reported",
+    "custom": "frontend:76c2e5b2-6dee-4100-a44f-408662b4e6e4",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_stack.js",
+    "created": "2026-04-11T13:25:17Z",
+    "completed": "2026-04-11T13:28:18Z",
+    "score": 10,
+    "sha256": "89d1d22e34e349f074065cfe4cd31b58d155833ec1746120230b4ee7ebe9f03e",
+    "tasks": {
+        "260411-qn3fzsbz9z-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:strrat",
+                "persistence",
+                "ransomware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_stack.js",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-qn3fzsbz9z-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:strrat",
+                "persistence",
+                "ransomware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "a05e19a327fb6c9208abf7866ef09c5efffabc04a80456b49c81c790a40880c5_stack.js",
+            "backend": "sbx4m61",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-qn3fzsbz9z-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

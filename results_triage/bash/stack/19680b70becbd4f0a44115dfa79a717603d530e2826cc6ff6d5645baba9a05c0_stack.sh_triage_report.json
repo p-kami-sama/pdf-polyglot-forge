@@ -1,0 +1,66 @@
+{
+    "sample": "260411-px46haax7x",
+    "status": "reported",
+    "custom": "frontend:d72ebba5-70f8-49f8-9704-da335a91a2ac",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+    "created": "2026-04-11T12:43:26Z",
+    "completed": "2026-04-11T12:47:30Z",
+    "score": 1,
+    "sha256": "a9fdd23c8b22506c16bc2e2279847df32141d6d5f3687c46d71f0546dedad35a",
+    "tasks": {
+        "260411-px46haax7x-behavioral1": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/bin/zsh' not found\n",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150
+        },
+        "260411-px46haax7x-behavioral2": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/bin/zsh' not found\n",
+            "os": "debian-9-armhf",
+            "timeout": 150
+        },
+        "260411-px46haax7x-behavioral3": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/bin/zsh' not found\n",
+            "os": "debian-9-mips",
+            "timeout": 150
+        },
+        "260411-px46haax7x-behavioral4": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "19680b70becbd4f0a44115dfa79a717603d530e2826cc6ff6d5645baba9a05c0_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "failure": "Payload did not run: elf interpreter '/bin/zsh' not found\n",
+            "os": "debian-9-mipsel",
+            "timeout": 150
+        },
+        "260411-px46haax7x-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

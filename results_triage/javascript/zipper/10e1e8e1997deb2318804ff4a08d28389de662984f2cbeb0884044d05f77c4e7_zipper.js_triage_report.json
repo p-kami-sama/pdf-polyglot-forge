@@ -1,0 +1,61 @@
+{
+    "sample": "260411-qs4vlscs6s",
+    "status": "reported",
+    "custom": "frontend:bd6d6ea9-9dab-4055-a2eb-3002b4be95ed",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "10e1e8e1997deb2318804ff4a08d28389de662984f2cbeb0884044d05f77c4e7_zipper.js",
+    "created": "2026-04-11T13:32:21Z",
+    "completed": "2026-04-11T13:35:04Z",
+    "score": 10,
+    "sha256": "ca3c6a598627ad803671d0245ba2b6b7ccfa33ebea8477f5a9ae909811d6bb64",
+    "tasks": {
+        "260411-qs4vlscs6s-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "loader"
+            ],
+            "score": 10,
+            "target": "10e1e8e1997deb2318804ff4a08d28389de662984f2cbeb0884044d05f77c4e7_zipper.js",
+            "backend": "sbx4m62",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qs4vlscs6s-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "loader"
+            ],
+            "score": 10,
+            "target": "10e1e8e1997deb2318804ff4a08d28389de662984f2cbeb0884044d05f77c4e7_zipper.js",
+            "backend": "sbx4m63",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-qs4vlscs6s-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf",
+                "evasion"
+            ],
+            "score": 6,
+            "sigs": 1
+        }
+    }
+}

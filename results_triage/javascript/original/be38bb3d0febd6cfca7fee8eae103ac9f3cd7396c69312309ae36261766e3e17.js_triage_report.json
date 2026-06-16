@@ -1,0 +1,62 @@
+{
+    "sample": "260411-qa8e3sbv9x",
+    "status": "reported",
+    "custom": "frontend:d98f1e81-dc0d-4935-a983-68d14849081f",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17.js",
+    "created": "2026-04-11T13:04:35Z",
+    "completed": "2026-04-11T13:07:45Z",
+    "score": 10,
+    "sha256": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17",
+    "tasks": {
+        "260411-qa8e3sbv9x-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17.js",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qa8e3sbv9x-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "discovery",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "be38bb3d0febd6cfca7fee8eae103ac9f3cd7396c69312309ae36261766e3e17.js",
+            "backend": "sbx4m60",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qa8e3sbv9x-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

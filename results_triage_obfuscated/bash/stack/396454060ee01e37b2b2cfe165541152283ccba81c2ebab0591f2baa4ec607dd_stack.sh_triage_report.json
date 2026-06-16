@@ -1,0 +1,90 @@
+{
+    "sample": "260523-whmfgafy4p",
+    "status": "reported",
+    "custom": "frontend:e9137f06-3a1e-4710-9034-ae3d4ecab9c1",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "396454060ee01e37b2b2cfe165541152283ccba81c2ebab0591f2baa4ec607dd_stack.sh",
+    "created": "2026-05-23T17:55:24Z",
+    "completed": "2026-05-23T17:58:21Z",
+    "score": 7,
+    "sha256": "d9b94165e0aba1eb59ac15fae9dfeff24fa3cfefebb6967ac916bc765c7e7f7a",
+    "tasks": {
+        "260523-whmfgafy4p-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "credential_access",
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "396454060ee01e37b2b2cfe165541152283ccba81c2ebab0591f2baa4ec607dd_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 26
+        },
+        "260523-whmfgafy4p-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "antivm",
+                "defense_evasion",
+                "discovery",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "396454060ee01e37b2b2cfe165541152283ccba81c2ebab0591f2baa4ec607dd_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 9
+        },
+        "260523-whmfgafy4p-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "396454060ee01e37b2b2cfe165541152283ccba81c2ebab0591f2baa4ec607dd_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 6
+        },
+        "260523-whmfgafy4p-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "privilege_escalation"
+            ],
+            "score": 7,
+            "target": "396454060ee01e37b2b2cfe165541152283ccba81c2ebab0591f2baa4ec607dd_stack.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 5
+        },
+        "260523-whmfgafy4p-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

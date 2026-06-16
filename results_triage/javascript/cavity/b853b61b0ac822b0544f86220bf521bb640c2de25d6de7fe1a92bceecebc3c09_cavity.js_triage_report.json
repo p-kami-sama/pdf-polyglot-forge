@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qdp3xabw9v",
+    "status": "reported",
+    "custom": "frontend:146299ec-951a-4ff3-8ff4-1bcbaf8495a4",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_cavity.js",
+    "created": "2026-04-11T13:08:56Z",
+    "completed": "2026-04-11T13:11:38Z",
+    "score": 10,
+    "sha256": "766abd17d64439282157f98cffd5b5e694a2cd4863dd216295c2bba74cf5dc3c",
+    "tasks": {
+        "260411-qdp3xabw9v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_cavity.js",
+            "backend": "sbx4m60",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-qdp3xabw9v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09_cavity.js",
+            "backend": "sbx4m62",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-qdp3xabw9v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "tags": [
+                "pdf"
+            ],
+            "score": 5,
+            "sigs": 1
+        }
+    }
+}

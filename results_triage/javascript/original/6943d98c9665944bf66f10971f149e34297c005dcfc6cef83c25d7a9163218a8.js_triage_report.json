@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qb1fvsbw4z",
+    "status": "reported",
+    "custom": "frontend:a2b09fdf-1780-466b-92aa-8af3dfdadad1",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8.js",
+    "created": "2026-04-11T13:05:57Z",
+    "completed": "2026-04-11T13:08:35Z",
+    "score": 10,
+    "sha256": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8",
+    "tasks": {
+        "260411-qb1fvsbw4z-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8.js",
+            "backend": "sbx4m61",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qb1fvsbw4z-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8.js",
+            "backend": "sbx4m60",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qb1fvsbw4z-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

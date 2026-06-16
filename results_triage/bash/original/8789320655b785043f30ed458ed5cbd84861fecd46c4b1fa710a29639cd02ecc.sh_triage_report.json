@@ -1,0 +1,66 @@
+{
+    "sample": "260411-prswaaat9v",
+    "status": "reported",
+    "custom": "frontend:8ce615e1-c20f-4cad-aa2f-3a3ce52e31f3",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc.sh",
+    "created": "2026-04-11T12:34:08Z",
+    "completed": "2026-04-11T12:39:45Z",
+    "score": 3,
+    "sha256": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc",
+    "tasks": {
+        "260411-prswaaat9v-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc.sh",
+            "backend": "sbx4m60",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-prswaaat9v-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-prswaaat9v-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-prswaaat9v-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 3,
+            "target": "8789320655b785043f30ed458ed5cbd84861fecd46c4b1fa710a29639cd02ecc.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsel-20260127-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 1
+        },
+        "260411-prswaaat9v-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

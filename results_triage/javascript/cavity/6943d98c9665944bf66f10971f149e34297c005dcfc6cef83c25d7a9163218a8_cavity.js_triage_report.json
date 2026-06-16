@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qfystsgz2l",
+    "status": "reported",
+    "custom": "frontend:d3c59717-936c-4f62-a214-0758e9ec509e",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8_cavity.js",
+    "created": "2026-04-11T13:12:51Z",
+    "completed": "2026-04-11T13:16:30Z",
+    "score": 10,
+    "sha256": "925a9d6ca1c0d7dcd16239194c0f8c36ddf67d5272bbcfe4a3ef30418ec1fd4b",
+    "tasks": {
+        "260411-qfystsgz2l-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8_cavity.js",
+            "backend": "sbx4m62",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qfystsgz2l-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6943d98c9665944bf66f10971f149e34297c005dcfc6cef83c25d7a9163218a8_cavity.js",
+            "backend": "sbx4m63",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qfystsgz2l-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

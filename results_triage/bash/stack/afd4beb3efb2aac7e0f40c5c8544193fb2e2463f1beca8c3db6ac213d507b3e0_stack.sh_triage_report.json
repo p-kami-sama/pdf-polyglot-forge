@@ -1,0 +1,66 @@
+{
+    "sample": "260411-pyrxkaax9y",
+    "status": "reported",
+    "custom": "frontend:cae6c96a-50e4-40a8-8a82-276ffa7de73d",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "afd4beb3efb2aac7e0f40c5c8544193fb2e2463f1beca8c3db6ac213d507b3e0_stack.sh",
+    "created": "2026-04-11T12:44:34Z",
+    "completed": "2026-04-11T12:47:38Z",
+    "score": 1,
+    "sha256": "2513f510a13a4a8b7e0e0d566a0947abc25c19b4ef0a37f1b364e67efac42ce1",
+    "tasks": {
+        "260411-pyrxkaax9y-behavioral1": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "afd4beb3efb2aac7e0f40c5c8544193fb2e2463f1beca8c3db6ac213d507b3e0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/system/bin/sh' not found\n",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150
+        },
+        "260411-pyrxkaax9y-behavioral2": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "afd4beb3efb2aac7e0f40c5c8544193fb2e2463f1beca8c3db6ac213d507b3e0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/system/bin/sh' not found\n",
+            "os": "debian-9-armhf",
+            "timeout": 150
+        },
+        "260411-pyrxkaax9y-behavioral3": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "afd4beb3efb2aac7e0f40c5c8544193fb2e2463f1beca8c3db6ac213d507b3e0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsbe-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/system/bin/sh' not found\n",
+            "os": "debian-9-mips",
+            "timeout": 150
+        },
+        "260411-pyrxkaax9y-behavioral4": {
+            "kind": "behavioral",
+            "status": "failed",
+            "score": 1,
+            "target": "afd4beb3efb2aac7e0f40c5c8544193fb2e2463f1beca8c3db6ac213d507b3e0_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsel-20260126-en",
+            "failure": "Payload did not run: elf interpreter '/system/bin/sh' not found\n",
+            "os": "debian-9-mipsel",
+            "timeout": 150
+        },
+        "260411-pyrxkaax9y-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

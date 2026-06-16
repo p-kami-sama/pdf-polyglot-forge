@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qr9dpshv2n",
+    "status": "reported",
+    "custom": "frontend:5e9d2bee-9e9d-4b29-bee2-c625d9a935c2",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_zipper.js",
+    "created": "2026-04-11T13:30:51Z",
+    "completed": "2026-04-11T13:33:48Z",
+    "score": 10,
+    "sha256": "1ac2f4af38628f0a50124a5cdf343dc7a6175b80970317c98f2e320e6eac2ed0",
+    "tasks": {
+        "260411-qr9dpshv2n-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_zipper.js",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 13
+        },
+        "260411-qr9dpshv2n-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "defense_evasion",
+                "discovery",
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "3f6b1ee279af8d5b5f855d3868173829cff0afcb977c037829d3a079a6e66bbb_zipper.js",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qr9dpshv2n-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

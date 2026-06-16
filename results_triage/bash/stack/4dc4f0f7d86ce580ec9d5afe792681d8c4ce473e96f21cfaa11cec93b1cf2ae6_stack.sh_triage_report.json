@@ -1,0 +1,62 @@
+{
+    "sample": "260411-pywkrafz3q",
+    "status": "reported",
+    "custom": "frontend:2ce23d1a-75a1-4600-90ca-f11e56fb0e0a",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "4dc4f0f7d86ce580ec9d5afe792681d8c4ce473e96f21cfaa11cec93b1cf2ae6_stack.sh",
+    "created": "2026-04-11T12:44:46Z",
+    "completed": "2026-04-11T12:51:05Z",
+    "score": 1,
+    "sha256": "9961838ce550d46cd6afb10d3604f048a36985a8b9abb89fa9a6fc8aa1dd48a5",
+    "tasks": {
+        "260411-pywkrafz3q-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "4dc4f0f7d86ce580ec9d5afe792681d8c4ce473e96f21cfaa11cec93b1cf2ae6_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150
+        },
+        "260411-pywkrafz3q-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "4dc4f0f7d86ce580ec9d5afe792681d8c4ce473e96f21cfaa11cec93b1cf2ae6_stack.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-armhf-20260126-en",
+            "os": "debian-9-armhf",
+            "timeout": 150
+        },
+        "260411-pywkrafz3q-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "4dc4f0f7d86ce580ec9d5afe792681d8c4ce473e96f21cfaa11cec93b1cf2ae6_stack.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260127-en",
+            "os": "debian-9-mips",
+            "timeout": 150
+        },
+        "260411-pywkrafz3q-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "score": 1,
+            "target": "4dc4f0f7d86ce580ec9d5afe792681d8c4ce473e96f21cfaa11cec93b1cf2ae6_stack.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150
+        },
+        "260411-pywkrafz3q-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

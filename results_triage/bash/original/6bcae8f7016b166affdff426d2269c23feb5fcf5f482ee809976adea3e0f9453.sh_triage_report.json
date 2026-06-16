@@ -1,0 +1,98 @@
+{
+    "sample": "260411-pr1wwsfw4q",
+    "status": "reported",
+    "custom": "frontend:c9f03f31-ae0f-4e86-9961-54aa5a1a749a",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453.sh",
+    "created": "2026-04-11T12:34:31Z",
+    "completed": "2026-04-11T12:41:34Z",
+    "score": 10,
+    "sha256": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453",
+    "tasks": {
+        "260411-pr1wwsfw4q-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "family:sliver",
+                "persistence",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260126-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-pr1wwsfw4q-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "family:sliver",
+                "persistence",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260127-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-pr1wwsfw4q-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "family:sliver",
+                "persistence",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-mipsbe-20260127-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-pr1wwsfw4q-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "backdoor",
+                "defense_evasion",
+                "discovery",
+                "family:sliver",
+                "persistence",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "6bcae8f7016b166affdff426d2269c23feb5fcf5f482ee809976adea3e0f9453.sh",
+            "backend": "sbx4m72",
+            "resource": "debian9-mipsel-20260126-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-pr1wwsfw4q-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "sample": "260411-p9l6fsgv4q",
+    "status": "reported",
+    "custom": "frontend:a517a128-0979-4ede-9f2b-533f9c47ac50",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09.js",
+    "created": "2026-04-11T13:01:47Z",
+    "completed": "2026-04-11T13:04:38Z",
+    "score": 10,
+    "sha256": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09",
+    "tasks": {
+        "260411-p9l6fsgv4q-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09.js",
+            "backend": "sbx4m72",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260411-p9l6fsgv4q-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "execution",
+                "family:agenttesla",
+                "keylogger",
+                "spyware",
+                "stealer",
+                "trojan"
+            ],
+            "score": 10,
+            "target": "b853b61b0ac822b0544f86220bf521bb640c2de25d6de7fe1a92bceecebc3c09.js",
+            "backend": "sbx4m65",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 10
+        },
+        "260411-p9l6fsgv4q-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

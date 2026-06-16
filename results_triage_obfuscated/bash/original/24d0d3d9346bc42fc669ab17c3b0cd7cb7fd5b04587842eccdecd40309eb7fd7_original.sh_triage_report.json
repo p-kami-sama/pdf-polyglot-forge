@@ -1,0 +1,86 @@
+{
+    "sample": "260526-nxwcxsa16t",
+    "status": "reported",
+    "custom": "frontend:f4869149-a1f2-4b28-874d-e45db4195078",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "24d0d3d9346bc42fc669ab17c3b0cd7cb7fd5b04587842eccdecd40309eb7fd7_original.sh",
+    "created": "2026-05-26T11:47:05Z",
+    "completed": "2026-05-26T11:50:13Z",
+    "score": 7,
+    "sha256": "040ad52dc2de467ae1c996491e80543a41e93e44de9a6ef526aa002a9d5d8ee9",
+    "tasks": {
+        "260526-nxwcxsa16t-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "24d0d3d9346bc42fc669ab17c3b0cd7cb7fd5b04587842eccdecd40309eb7fd7_original.sh",
+            "backend": "sbx4m72",
+            "resource": "ubuntu1804-amd64-20260513-en",
+            "os": "ubuntu-18.04-amd64",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nxwcxsa16t-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "24d0d3d9346bc42fc669ab17c3b0cd7cb7fd5b04587842eccdecd40309eb7fd7_original.sh",
+            "backend": "sbx4m61",
+            "resource": "debian9-armhf-20260513-en",
+            "os": "debian-9-armhf",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nxwcxsa16t-behavioral3": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "24d0d3d9346bc42fc669ab17c3b0cd7cb7fd5b04587842eccdecd40309eb7fd7_original.sh",
+            "backend": "sbx4m73",
+            "resource": "debian9-mipsbe-20260513-en",
+            "os": "debian-9-mips",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nxwcxsa16t-behavioral4": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "credential_access",
+                "defense_evasion",
+                "discovery"
+            ],
+            "score": 7,
+            "target": "24d0d3d9346bc42fc669ab17c3b0cd7cb7fd5b04587842eccdecd40309eb7fd7_original.sh",
+            "backend": "sbx4m60",
+            "resource": "debian9-mipsel-20260513-en",
+            "os": "debian-9-mipsel",
+            "timeout": 150,
+            "sigs": 11
+        },
+        "260526-nxwcxsa16t-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "sample": "260411-qhcclsby3s",
+    "status": "reported",
+    "custom": "frontend:9e1555de-85fc-4fe9-8ff6-93661904c553",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "927c6d68f6413e437e4a919b2007f6a2ade32be71f80467856ce19a0325b63eb_cavity.js",
+    "created": "2026-04-11T13:15:17Z",
+    "completed": "2026-04-11T13:18:41Z",
+    "score": 10,
+    "sha256": "c91dbfb455004a38cc02454c7caf39a94f9d075c493ed4435fe438e7136b2ed4",
+    "tasks": {
+        "260411-qhcclsby3s-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "discovery",
+                "execution",
+                "family:vipkeylogger",
+                "keylogger",
+                "persistence",
+                "privilege_escalation",
+                "stealer"
+            ],
+            "score": 10,
+            "target": "927c6d68f6413e437e4a919b2007f6a2ade32be71f80467856ce19a0325b63eb_cavity.js",
+            "backend": "sbx4m72",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 16
+        },
+        "260411-qhcclsby3s-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "collection",
+                "discovery",
+                "execution",
+                "family:vipkeylogger",
+                "keylogger",
+                "persistence",
+                "privilege_escalation",
+                "stealer"
+            ],
+            "score": 10,
+            "target": "927c6d68f6413e437e4a919b2007f6a2ade32be71f80467856ce19a0325b63eb_cavity.js",
+            "backend": "sbx4m72",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 20
+        },
+        "260411-qhcclsby3s-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 5,
+            "sigs": 2
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "sample": "260411-qnpvwsbz8w",
+    "status": "reported",
+    "custom": "frontend:a3d4d9e5-1425-4f42-9449-3fa5f6b33f86",
+    "owner": "fe-hpt-04168b48dafbce6b7.recfut.net",
+    "org_id": "7d6b1a28-20a8-42d8-9845-1fcd67f5ccbd",
+    "meta": {
+        "channel": "public"
+    },
+    "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_stack.js",
+    "created": "2026-04-11T13:24:39Z",
+    "completed": "2026-04-11T13:28:13Z",
+    "score": 10,
+    "sha256": "f178e777227b22a5f0f3be528e1c865eadf3bff56d38d49a7c86cbbe6db73ffa",
+    "tasks": {
+        "260411-qnpvwsbz8w-behavioral1": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_stack.js",
+            "backend": "sbx4m75",
+            "resource": "win10v2004-20260130-en",
+            "os": "windows10-2004-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qnpvwsbz8w-behavioral2": {
+            "kind": "behavioral",
+            "status": "reported",
+            "tags": [
+                "botnet:remotehost",
+                "execution",
+                "family:donutloader",
+                "family:remcos",
+                "loader",
+                "rat"
+            ],
+            "score": 10,
+            "target": "8f4cb07a4333f15fa8e585b00ef08ab329fda9fbc3802fdbdf579c194096ba9d_stack.js",
+            "backend": "sbx4m60",
+            "resource": "win11-20260130-en",
+            "os": "windows11-21h2-x64",
+            "timeout": 150,
+            "sigs": 12
+        },
+        "260411-qnpvwsbz8w-static1": {
+            "kind": "static",
+            "status": "reported",
+            "score": 1
+        }
+    }
+}
