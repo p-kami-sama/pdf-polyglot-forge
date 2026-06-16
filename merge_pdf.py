@@ -868,7 +868,7 @@ def main():
     # 1. Initialize the parser
     parser = argparse.ArgumentParser(
         description="Script for manipulating polyglot/PDF files.",
-        epilog="Usage example: python script.py input.pdf payload.js result.pdf --type cavity --verbose"
+        epilog="Usage example: python3 merge_pdf.py input.pdf payload.js result.pdf --type cavity --obfuscate -v"
     )
 
     # 2. Define the 3 file paths as POSITIONAL arguments (No dashes)
