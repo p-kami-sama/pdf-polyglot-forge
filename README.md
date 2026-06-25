@@ -2,7 +2,7 @@
 
 A research-oriented toolkit for generating PDF polyglots that embed Bash, JavaScript, and Python payloads. This project provides multiple merging strategies and supports clean formatting and header preservation. Designed for digital forensics, malware analysis research, and polyglot study, not for malicious use.
 
-> ⚠️ **WARNING / DISCLAIMER** > This repository contains **live malware samples** inside the `PoC` directory used strictly for academic research and evaluation. The malicious files are stored inside password-protected `.zip` archives to prevent accidental execution.
+> ⚠️ **WARNING / DISCLAIMER** > This repository contains **live malware samples** used strictly for academic research and evaluation. The malicious files are stored inside password-protected `.zip` archives to prevent accidental execution.
 > **The password for all malware zip files is: `infected`**
 
 ---
@@ -10,9 +10,9 @@ A research-oriented toolkit for generating PDF polyglots that embed Bash, JavaSc
 
 The repository is organized to support both the generation of polyglots and the reproduction of the experimental data presented in our research:
 
-* **`make_pdf_polyglot.py`**: The core Python script used to inject payloads into PDF files using different structural positions.
+* **`merge_pdf.py`**: The core Python script used to inject payloads into PDF files using different structural positions.
 * **`automated_task_scripts/`**: A suite of helper scripts `python` used to automate the batch generation of polyglots, verify their syntax (`check_polyglots_syntax.sh`).
-* **`generate_graphs/`**: Contains the experimental dataset (`NEW_PDF_tests.csv`) and the Python scripts (`generate_graph_X.py`) used to plot the detection rate charts featured in the paper. The outputs are saved in the `graphs/` subfolder.
+* **`make_graphs_scripts/`**: Contains the Python scripts  used to plot the detection rate charts featured in the paper. The outputs are saved in the `graphs/` folder.
 
 ---
 
